@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    width: 100%;
+    display: flex;
+    background: #3b5998;
+    height: 50px;
+    box-shadow: 0px 5px 5px rgb(155, 155, 155);
+}
+.top .icon{
+    margin-left: 10%;
+    padding: 10px 30px;
+}
+.top .icon i{
+    font-size: 30px;
+    color: #fff;
+}
+.top .text{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30%;
+    padding: 15px 40px;
+}
+.section .logo{
+    margin-left: 44%;
+    margin-top: 150px;
+}
+.section .logo img{
+    width: 20%;
+
+}
+.section .text{
+    align-items: center;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.section button{
+    background: #4080ff;
+    align-items: center;
+    text-align: center;
+    margin-left: 43%;
+    height: 70px;
+    width: 13%;
+    border-radius: 10px;
+    margin-top: 40px;
+    border: none;
+    box-shadow: 0px 5px 5px rgb(155, 155, 155);
+}
+
+.section button a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+}
+.bottom{
+    text-align: center;
+    margin-top: 250px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+   .top{
+    height: 60px;
+    width: 100%;
+   }
+   .top .icon{
+    padding: 15px 35px;
+    margin: 0;
+   } 
+   .top .text{
+    margin: 0;
+    padding: 20px 0px;
+    font-weight: 100;
+   } 
+   .section .logo{
+    padding: 0;
+    align-items: center;
+    margin-left: 23%;
+    margin-top: 160px;
+   }
+   .section .logo img{
+    width: 200px;
+   }
+   .section button{
+    width: 90%;
+    margin: 0;
+    margin-left: 5%;
+    margin-top: 100px;
+    padding: 0;
+   }
+   .bottom{
+    margin-top: 150px;
+    text-align: center;
+   }
+  }
